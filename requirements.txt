@@ -1,0 +1,4 @@
+# Windows x64 wheels only. Review hashes when upgrading dependencies.
+libusb1==3.4.0 --hash=sha256:b7dcc1f324a895af6aac708bc5513a17373f97349cc2ab8a277519c788bd18ca
+libusb-package==1.0.30.0 --hash=sha256:90808da724c8939a333d931d0c7226372ca5fefd98e2f2f3ef79fd918aa37522
+importlib-resources==7.1.0 --hash=sha256:1bd7b48b4088eddb2cd16382150bb515af0bd2c70128194392725f82ad2c96a1

@@ -1,0 +1,315 @@
+{
+  "id": "cv1-esp770u-usb2-mjpeg-v1",
+  "flash_size": 131072,
+  "jedec_id": "c22011",
+  "changed_bytes": 98,
+  "fingerprints": [
+    {
+      "name": "boot copies",
+      "start": 0,
+      "end": 24576,
+      "before": "b38d2bff652ab10f5f62e2d840886227dab5e8a0e6cc8652e0ecbd3b8841a0de",
+      "after": "b38d2bff652ab10f5f62e2d840886227dab5e8a0e6cc8652e0ecbd3b8841a0de"
+    },
+    {
+      "name": "main application",
+      "start": 24576,
+      "end": 65536,
+      "before": "1ccea28d6433cd3b89d761913c27f7f46de31a8009719152bdc1835959788326",
+      "after": "ebe7131309cbc7db74bdbe9c7400d6123b5e622a53c0eb06bd31bfd766ed93da"
+    },
+    {
+      "name": "USB descriptor and negotiation tables",
+      "start": 65876,
+      "end": 67169,
+      "before": "91c6a80fcc3fdd052d2595f21b693ceb0402a66d5361be5eafe61abe46373121",
+      "after": "aa3d095c91dfa6490b2776e3ee7cf480a72db0b1127335d680fcf43b2e1ba0f1"
+    },
+    {
+      "name": "frame contexts",
+      "start": 79491,
+      "end": 79921,
+      "before": "7be7ef9575f79bfb732f056595d69faf42b5b613f28245c0fb2b87fd97a2f812",
+      "after": "bca772496bf05e8dc853e6a4d805d0bb6edb8286dda26e104fb647a6293b4438"
+    },
+    {
+      "name": "sensor initialization tables",
+      "start": 81040,
+      "end": 81808,
+      "before": "71f1a8d6a2174b7569fee0d8aa0155e6d1e8e37f4a861a4a091b9ebc63d2c90d",
+      "after": "7a79af55ebba305a808597f6002e306b37d839a535acc6a7f651b0b648f37000"
+    }
+  ],
+  "edits": [
+    {
+      "offset": 55853,
+      "before": "e0ff",
+      "after": "7f02"
+    },
+    {
+      "offset": 65516,
+      "before": "2585",
+      "after": "14e6"
+    },
+    {
+      "offset": 65897,
+      "before": "de",
+      "after": "44"
+    },
+    {
+      "offset": 65927,
+      "before": "ff",
+      "after": "0e"
+    },
+    {
+      "offset": 65940,
+      "before": "ff",
+      "after": "0e"
+    },
+    {
+      "offset": 66081,
+      "before": "ff",
+      "after": "0e"
+    },
+    {
+      "offset": 66179,
+      "before": "13",
+      "after": "12"
+    },
+    {
+      "offset": 66182,
+      "before": "0f",
+      "after": "0e"
+    },
+    {
+      "offset": 66185,
+      "before": "023101",
+      "after": "019700"
+    },
+    {
+      "offset": 66197,
+      "before": "001ff1041b2404010459555932",
+      "after": "20f1001b240401045955593200"
+    },
+    {
+      "offset": 66211,
+      "before": "00100080",
+      "after": "10008000"
+    },
+    {
+      "offset": 66216,
+      "before": "00aa00389b711001",
+      "after": "aa00389b71100100"
+    },
+    {
+      "offset": 66231,
+      "before": "04",
+      "after": "00"
+    },
+    {
+      "offset": 66265,
+      "before": "04",
+      "after": "00"
+    },
+    {
+      "offset": 66299,
+      "before": "04",
+      "after": "00"
+    },
+    {
+      "offset": 66333,
+      "before": "04",
+      "after": "00"
+    },
+    {
+      "offset": 66367,
+      "before": "04",
+      "after": "00"
+    },
+    {
+      "offset": 66381,
+      "before": "02",
+      "after": "01"
+    },
+    {
+      "offset": 66739,
+      "before": "ff",
+      "after": "0e"
+    },
+    {
+      "offset": 66759,
+      "before": "ff",
+      "after": "0e"
+    },
+    {
+      "offset": 66779,
+      "before": "ff",
+      "after": "0e"
+    },
+    {
+      "offset": 66820,
+      "before": "ff",
+      "after": "0e"
+    },
+    {
+      "offset": 66851,
+      "before": "ff",
+      "after": "0e"
+    },
+    {
+      "offset": 67019,
+      "before": "10f447",
+      "after": "028b0a"
+    },
+    {
+      "offset": 67038,
+      "before": "1312d0",
+      "after": "02d361"
+    },
+    {
+      "offset": 67057,
+      "before": "08f9cb",
+      "after": "01b207"
+    },
+    {
+      "offset": 67076,
+      "before": "1312d0",
+      "after": "02d361"
+    },
+    {
+      "offset": 77292,
+      "before": "01",
+      "after": "08"
+    },
+    {
+      "offset": 79494,
+      "before": "00",
+      "after": "01"
+    },
+    {
+      "offset": 79524,
+      "before": "0048",
+      "after": "01e0"
+    },
+    {
+      "offset": 79529,
+      "before": "01",
+      "after": "00"
+    },
+    {
+      "offset": 79532,
+      "before": "02",
+      "after": "01"
+    },
+    {
+      "offset": 79538,
+      "before": "03",
+      "after": "01"
+    },
+    {
+      "offset": 79546,
+      "before": "00",
+      "after": "01"
+    },
+    {
+      "offset": 79576,
+      "before": "0040",
+      "after": "01b0"
+    },
+    {
+      "offset": 79581,
+      "before": "02",
+      "after": "00"
+    },
+    {
+      "offset": 79584,
+      "before": "02",
+      "after": "01"
+    },
+    {
+      "offset": 79590,
+      "before": "06",
+      "after": "05"
+    },
+    {
+      "offset": 79598,
+      "before": "00",
+      "after": "01"
+    },
+    {
+      "offset": 79628,
+      "before": "0088",
+      "after": "02d0"
+    },
+    {
+      "offset": 79633,
+      "before": "03",
+      "after": "00"
+    },
+    {
+      "offset": 79636,
+      "before": "02",
+      "after": "01"
+    },
+    {
+      "offset": 79642,
+      "before": "07",
+      "after": "08"
+    },
+    {
+      "offset": 79650,
+      "before": "00",
+      "after": "01"
+    },
+    {
+      "offset": 79680,
+      "before": "0040",
+      "after": "01b0"
+    },
+    {
+      "offset": 79685,
+      "before": "02",
+      "after": "00"
+    },
+    {
+      "offset": 79688,
+      "before": "0201",
+      "after": "0100"
+    },
+    {
+      "offset": 79694,
+      "before": "06",
+      "after": "05"
+    },
+    {
+      "offset": 81092,
+      "before": "00e0",
+      "after": "02bc"
+    },
+    {
+      "offset": 81248,
+      "before": "00e0",
+      "after": "02bc"
+    },
+    {
+      "offset": 81396,
+      "before": "0064",
+      "after": "0384"
+    },
+    {
+      "offset": 81520,
+      "before": "0064",
+      "after": "0384"
+    },
+    {
+      "offset": 81641,
+      "before": "1c",
+      "after": "3f"
+    },
+    {
+      "offset": 81768,
+      "before": "0064",
+      "after": "0384"
+    }
+  ]
+}

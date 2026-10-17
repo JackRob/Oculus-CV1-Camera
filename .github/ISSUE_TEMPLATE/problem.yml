@@ -1,0 +1,46 @@
+name: Installation or camera problem
+description: Report a redacted result without private firmware or sensor data
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This can and will brick your Sensor.** Read docs/RECOVERY.md before retrying a failed write.
+        Do not upload firmware, backups, calibration, serial numbers, full logs, or camera captures.
+        Replace personal account names, emails and local paths in error messages before posting.
+  - type: input
+    id: version
+    attributes:
+      label: Installer version and Windows version
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Stage that failed
+      options:
+        - Setup
+        - Backup or compatibility check
+        - Write
+        - Readback
+        - Cold startup
+        - Live video
+        - Restoration
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: Current USB device state
+      options:
+        - Normal 2833:0211
+        - Bootloader 1e4e:0668
+        - Failed USB device
+        - No USB device
+        - Unknown
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Short redacted error and connection details
+      description: Say whether writing started. Do not include a serial, private backup, account name, or complete log.
